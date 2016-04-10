@@ -12,5 +12,4 @@ class Customer:
         orders = []
         for order_no in DATABASE_ORDER_NUMBERS:
             orders.append(Order(self.name, order_no))
-
         return orders
